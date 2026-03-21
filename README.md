@@ -1,4 +1,4 @@
-# 🌾 Krishi Sahayak – AI-Based Agriculture Assistant
+# 🌾 Krishi-Sahayak | AI & Web Agricultural Platform
 
 ## 📌 Overview
 
