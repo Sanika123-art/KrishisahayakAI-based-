@@ -1,0 +1,101 @@
+body 
+{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#insu,#loan,#subsidy,#tools
+{
+    text-align: center;
+    margin-top: 100px;
+    font-family: cursive;
+    transition:ease-in;
+}
+
+#insup,#loanp,#subsidyp,#toolsp
+{
+    text-align:justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:18px;
+    font-family: cursive;
+    
+   
+}
+#insup:hover,
+#loanp:hover,
+#subsidyp:hover,
+#toolsp:hover
+{
+  color: rgb(138, 93, 63);
+}
+
+.hero3
+{
+    width:100%;
+    margin-top: 30px;
+}
+
+.card-container
+{
+    display: flex;
+    gap: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.card
+{
+    background: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  margin-top: 50px;
+  cursor:pointer;
+
+    
+}
+
+/* Card Title (Scheme Name) */
+.card-title {
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Card Subtitle (like 'Insurance Scheme') */
+.card-subtitle {
+    font-family: cursive;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+/* Card Description */
+.card-text {
+    font-family: cursive;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.card:hover
+{
+    transform: translateY(-40px); 
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

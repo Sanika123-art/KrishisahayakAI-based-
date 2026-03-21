@@ -1,0 +1,91 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Header */
+header{
+    background:#1b5e20;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* Container */
+.container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Card */
+.card{
+    background:white;
+    padding:30px;
+    width:400px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+/* Title */
+.card h2{
+    margin-bottom:10px;
+    color:#1b5e20;
+}
+
+/* File Input */
+.file-input{
+    margin:20px 0;
+    padding:10px;
+    width:100%;
+}
+
+/* Button */
+.predict-btn{
+    width:100%;
+    padding:12px;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.predict-btn:hover{
+    background:#1b5e20;
+}
+
+/* Result Box */
+.result-box{
+    margin-top:20px;
+    padding:15px;
+    background:#f1f8e9;
+    border-radius:5px;
+}
+
+/* Result Text */
+.result-text{
+    font-weight:bold;
+    color:#d32f2f;
+}
+
+.confidence-text{
+    font-weight:bold;
+    color:#1976d2;
+}
+
+/* Footer */

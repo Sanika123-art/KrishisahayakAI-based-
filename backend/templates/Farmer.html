@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmer AI Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/Farmer.css') }}">
+</head>
+<body>
+ 
+  <div class="chat-container">
+    <div class="chat-header">
+      <img src="static/images/digital1.jpg" alt="Farmer Image">
+      <h2>Welcome, Farmer! 🌾</h2>
+      <p>I am your AI assistant here to help you with crops, pests, weather, and more!</p>
+    </div>
+
+    <div class="chat-body" id="chat-body">
+      <div class="bot-message">
+        Hello! I’m your farming assistant. You can ask me anything about crops, pests, weather, or farming tips.
+      </div>
+    </div>
+     <div class="chat-footer">
+      <input type="text" id="user-input" placeholder="Type your question here..." />
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script src="{{url_for('static',filename='js/Farmer.js')}}"></script>
+</body>
+</html>
+<!--https://cdn-icons-png.flaticon.com/512/1995/1995574.png-->

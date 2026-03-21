@@ -1,44 +1,75 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #e8f5e9;
+  font-family: cursive;
+  background-image: url('/static/images/farmer1.jpg');
+  background-size: cover;
+
+  
 }
 
 .container {
-  width: 350px;
-  margin: 80px auto;
+  width: 1000px;
   padding: 20px;
-  background: white;
+  background: rgb(255, 250, 247,0.2);
+  backdrop-filter:blur(8px) ;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 100px auto;
+ background-position:center;
+ background-repeat: no-repeat;
+
+  
 }
 
 h2 {
   text-align: center;
   color: green;
 }
+.form-field {
+  width:100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: cursive; /* match dropdowns */
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgb(246, 244, 240);
+  
+}
+
 
 select, input {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
+ 
 }
 
 button {
-  width: 100%;
+ 
   padding: 10px;
   margin-top: 15px;
-  background: green;
+  background: rgb(6, 128, 0);
   color: white;
   border: none;
   cursor: pointer;
+  font-family: cursive;
+  border-radius: 10px;
+
 }
+  
+
 
 button:hover {
-  background: darkgreen;
+  background: rgb(130, 181, 72);
 }
 
 #result {
   margin-top: 15px;
   font-weight: bold;
   text-align: center;
+  font-family: cursive;
+  font-size: 24px;
+
 }

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/Forgotpass.css')}}">
+</head>
+<body>
+    <h2>Forgot password</h2>
+    <div class="sign1">
+       <input type="text" class="id1" placeholder="Enter username"><br><br>
+        <input type="text" class="pass" placeholder="Enter password"><br><br>
+        <input type="text" class="conpass" placeholder="Enter confirmpassword"><br><br>
+        <button onclick="resetpass()" id="id2">Reset Password</button>
+    </div>
+    <script src="{{url_for('static',filename='js/Forgot.js')}}"></script>
+</body>
+</html>

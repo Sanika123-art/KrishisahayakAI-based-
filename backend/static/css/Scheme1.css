@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.hero
+{
+
+    /*background-image: url("images/loan1.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;*/
+  
+  background-image: url("../images/loan1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  
+}    
+
+.hero-overlay
+{
+    margin-top: 0px;
+    height:600px;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color:aliceblue;
+  
+}
+.hero-overlay h1{
+    text-align: center;
+    margin-top: 200px;
+}
+.hero-overlay p{
+    text-align: center;
+   
+}
+.hero2 {
+  width: 100%;
+ 
+}
+
+#head1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* MAIN ROW */
+.content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+/* LEFT SIDE - VIDEO */
+.about1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.bgvideo {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* RIGHT SIDE - TEXT */
+.about2 {
+  flex: 1;
+}
+
+.about2 h2 {
+  margin-top: 0;
+}
+
+.about2 ul {
+  padding-left: 20px;
+}
+.slide-left,
+.slide-right {
+  opacity: 0;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+.slide-left
+{
+    animation-name: slideFromLeft;
+}
+.slide-right
+{
+    animation-name: slideFromright;
+}
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromright 
+{
+    from
+    {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+     to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+}
+
+.hero3
+{
+    width:100%;
+    margin-top: 30px;
+}
+
+.card-container
+{
+    display: flex;
+    gap: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+.card
+{
+    background: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+
+    
+}
+.card:hover
+{
+    transform: translateY(-40px); 
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-family:cursive;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  font-family:cursive;
+}
+
+.footer1{
+  background-color:#1b5e20 ;
+  margin-top: 50px;
+  color:aliceblue;
+  font-family: clean sans-serif (Roboto, Open Sans, Arial);
+}
+.foot-con{
+  width: 90%;
+  margin:auto;
+  padding:60px 0 20px;
+  
+  
+  
+}
+.foot-row
+{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  
+  
+}
+.foot-col{
+  flex:1;
+  min-width:220px;
+  .footer1{
+  background-color:#1b5e20 ;
+  margin-top: 20px;
+  color:aliceblue;
+  font-family: clean sans-serif (Roboto, Open Sans, Arial);
+}
+.foot-con{
+  width: 90%;
+  margin:auto;
+  padding:60px 0 20px;
+  
+  
+}
+.foot-row
+{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  
+  
+}
+.foot-col{
+  flex:1;
+  min-width:350px;
+   
+  
+
+  
+}
+
+
+.foottitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.foot-col h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #c8ffdb;
+}
+
+.foot-col ul{
+  list-style: none;
+  padding: 0;
+}
+.foot-col ul li{
+  margin:8px 0;
+}
+.foot-col ul li a{
+  color:#f6fff4;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.foot-col ul li a:hover{
+  padding-left: 8px;
+  color:#fff;
+}
+.abc{
+  margin-right: 5px;
+}
+.foot-bottom{
+  text-align: center;
+}
+  
+}
+.foottitle{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.foot-col h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #c8ffdb;
+}
+
+.foot-col ul{
+  list-style: none;
+  padding: 0;
+}
+.foot-col ul li{
+  margin:8px 0;
+}
+.foot-col ul li a{
+  color:#f6fff4;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.foot-col ul li a:hover{
+  padding-left: 8px;
+  color:#fff;
+}
+.abc{
+  margin-right: 5px;
+}
+.foot-bottom{
+  text-align: center;
+}
+
+
+

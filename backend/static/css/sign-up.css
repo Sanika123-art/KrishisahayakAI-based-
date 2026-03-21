@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+body {
+ background: linear-gradient(135deg, #a36b4f, #C8E6C9);
+
+ 
+
+
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 180px;
+    font-size:var(15px);
+}
+
+input::placeholder
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+.sign1{
+width: 300px;
+height: 500px;
+display: flex;
+flex-direction: column;
+margin-left: 625px;
+margin-top: 30px;
+transition: 0.3s;
+
+}
+.id1{
+    height:40px;
+    border-radius: 100px;
+}
+.id1:hover
+{
+    box-shadow: 5px 5px 15px gray;
+}
+.mobi
+{
+    height:40px;
+    border-radius: 100px;
+
+}
+.mobi:hover
+{
+    box-shadow: 5px 5px 15px gray;
+}
+
+.pass
+{
+   height:40px;
+    border-radius: 100px; 
+}
+.pass:hover
+{
+    box-shadow: 5px 5px 15px gray;
+}
+.conpass{
+ height:40px;
+    border-radius: 100px; 
+}
+.conpass:hover
+{
+    box-shadow: 5px 5px 15px gray;
+
+}
+#id2
+{
+    height: 40px;
+    width:100px;
+    margin-left: 120px;
+    border-radius: 100px;
+    background-color: black;
+    color: aliceblue;
+    font-family:cursive ;
+
+
+}
+#id2:hover
+{
+    box-shadow: 5px 5px 15px gray;
+}

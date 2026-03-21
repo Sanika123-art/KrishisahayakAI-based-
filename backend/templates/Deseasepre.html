@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crop Disease Identification</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <h1>🌿 Crop Disease Identification System</h1>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <div class="card">
+
+            <h2>Upload Crop Image</h2>
+
+            <p>Select a leaf image to detect disease</p>
+
+            <input type="file" class="file-input">
+
+            <button class="predict-btn">Predict Disease</button>
+
+            <!-- Result Section -->
+            <div class="result-box">
+
+                <h3>Prediction Result</h3>
+
+                <p>Disease: <span class="result-text">--</span></p>
+
+                <p>Confidence: <span class="confidence-text">--</span></p>
+
+            </div>
+
+        </div>
+
+    </div>
+   <script src="{{url_for('static',filename='js/scripts1.js')}}"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sign-up.css') }}">
+</head>
+<body>
+    <h1>sign up </h1>
+     <div class="sign1">
+        <input type="text" class="id1" placeholder="Enter username"><br><br>
+        <input type="text" class="mobi" placeholder="Enter mobile"><br><br>
+        <input type="text" class="pass" placeholder="Enter password"><br><br>
+        <input type="text" class="conpass" placeholder="Enter confirmpassword"><br><br>
+        <button type="submit" id="id2">Sign up</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/sign-up.js') }}"></script>
+    
+</body>
+</html>
